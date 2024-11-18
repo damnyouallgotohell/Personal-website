@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLE - Personal Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000000; /* Dark black background */
+            color: #ffffff; /* White text */
+        }
+        .container {
+            text-align: center;
+            max-width: 500px;
+            background-color: #1a1a1a; /* Slightly lighter black for the container */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #ffffff; /* White border for profile image */
+        }
+        h1 {
+            font-size: 24px;
+            margin: 15px 0;
+            font-weight: bold;
+            color: #ffffff;
+        }
+        p {
+            font-size: 14px;
+            color: #cccccc; /* Light grey text for paragraph */
+        }
+        .accounts {
+            margin-top: 20px;
+        }
+        .accounts a {
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .accounts img {
+            width: 40px;
+            height: 40px;
+            border-radius: 8px; /* Rounded corners for images */
+            transition: transform 0.2s;
+        }
+        .accounts img:hover {
+            transform: scale(1.1);
+        }
+        .lang-switch {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .lang-switch a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #007BFF; /* Blue text for language links */
+        }
+        .lang-switch a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="your-image.jpg" alt="Profile Picture" class="profile-img">
+        <h1>SLE</h1>
+        <p>These are my accounts</p>
+        <div class="accounts">
+            <a href="https://www.instagram.com/e9alol/profilecard/?igsh=Nndoenhzc28xcTln" target="_blank">
+                <img src="6B74A85A-7DF7-480D-9175-1C96BCF395EA.png" alt="Instagram">
+            </a>
+            <a href="https://www.tiktok.com/@e9alol?_t=8rUGSUAvvT5&_r=1" target="_blank">
+                <img src="0E86C18C-4A43-4F27-ABB7-42D10A75BC74.jpeg" alt="TikTok">
+            </a>
+        </div>
+        <div class="lang-switch">
+            <a href="#en">English</a> | <a href="#ar">العربية</a>
+        </div>
+    </div>
+</body>
+</html>
